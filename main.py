@@ -182,4 +182,4 @@ elif cmd[0] == 'pull':
         shutil.copyfileobj(f_in, f_out)
     os.remove(docker_tar)
     shutil.rmtree(img_dir)
-    print('\rDocker image pulled: ' + docker_tar)
+    print('\rDocker image pulled: ' + docker_tar + '.gz')
