@@ -24,33 +24,33 @@ python3 main.py show dockername
 
 - If your image is a single architecture,you will receive a single architecture and architecture name!
 
-![image-20240907210926280](RAEDEME.assets/image-20240907210926280.png)
+![image-20240907210926280](README.assets/image-20240907210926280.png)
 
 - If your image is a multiple architecture,you will receive a multiple architecture and all architecture names!
 
-![image-20240907211109409](RAEDEME.assets/image-20240907211109409.png)
+![image-20240907211109409](README.assets/image-20240907211109409.png)
 
 ## 3.2Pull DockerHub Image
 
 - If your image is a single architecture,you will receive a file of tar.gz form.
 
-```
+```bash
 python3 main.py pull dockername
 ```
 
-![image-20240907212226701](RAEDEME.assets/image-20240907212226701.png)
+![image-20240907212226701](README.assets/image-20240907212226701.png)
 
 - If your image is a multiple architecture,you will receive a file of tar.gz form.
 
-```
+```bash
 python3 main.py pull dockername architecture_name
 ```
 
-![image-20240907212626983](RAEDEME.assets/image-20240907212626983.png)
+![image-20240907212626983](README.assets/image-20240907212626983.png)
 
 ## 3.3Load DockerHub Image
 
-```
+```bash
 docker load -i ***.tar.gz
 ```
 
@@ -70,4 +70,4 @@ The author of this repository is RongRongStudio.A.Please contact rongrongstudio@
 
 Wechat Group
 
-![wechat group](RAEDEME.assets/wechat_group.png)
+![wechat group](README.assets/wechat_group.png)
